@@ -1,5 +1,6 @@
 import React from "react";
+import Spinner from "./_components/Spinner";
 
 export default function Loading() {
-  return <p>LOADING DATA...</p>;
+  return <Spinner />;
 }
